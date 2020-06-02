@@ -1,0 +1,24 @@
+{
+  "name": "guru-nodetutorial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "https://www.guru99.com/node-js-tutorial.html",
+  "main": "Addition.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "mongodb": "^3.5.7",
+    "promise": "^8.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
